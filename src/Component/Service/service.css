@@ -1,0 +1,127 @@
+#service-sector {
+  border-radius: 100px 0px 100px 0px;
+}
+#owlDiv {
+  border-radius: 20px;
+}
+#sevice-header:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 20%;
+  left: -5%;
+  background: linear-gradient(135deg, #fff, #fff);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: 1s;
+}
+
+#sevice-header:hover::before {
+  width: 5px;
+  height: 20px;
+  position: absolute;
+  top: 20%;
+  left: 110px;
+}
+
+.swiper-slide a {
+  text-decoration-line: none;
+  text-align: center;
+}
+.swiper-slide a h5 {
+  color: gray;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.skills {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(48, 48, 48);
+}
+.tools_h1 {
+  text-align: center;
+  color: rgb(61, 61, 61);
+  font-size: 25px;
+  text-decoration: wavy;
+  text-decoration-line: underline;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.languages_container {
+  display: grid;
+  grid-template-columns: repeat(8, 0.7fr);
+  grid-column-gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.language {
+  width: fit-content;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.language p {
+  color: gray;
+}
+
+.language img {
+  width: 70px;
+  height: 70px;
+}
+.tools_container {
+  display: grid;
+  grid-template-columns: repeat(8, 0.7fr);
+  grid-column-gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .languages_container {
+    display: grid;
+    grid-template-columns: repeat(4, 0.7fr);
+    grid-column-gap: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .language img {
+    width: 50px;
+    height: 50px;
+  }
+  .language p {
+    font-size: 12px;
+  }
+}
+
+#expart_list {
+  text-align: start;
+  padding: 20px;
+  border-radius: 20px;
+
+  background-color: #61e8ed;
+}
+#slider {
+  border-radius: 20px;
+  box-shadow: 4px 4px 0px rgb(255, 255, 255);
+  margin: 20px 0;
+}
+.listStyle {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.listStyle li {
+  padding: 5px;
+  color: rgb(68, 68, 68);
+  font-size: 15px;
+}
+.export_detail h1 {
+  padding-bottom: 10px;
+  text-decoration: dashed;
+  text-decoration-line: underline;
+  text-underline-offset: calc(7px);
+  text-decoration-thickness: 1px;
+  text-align: center;
+  color: rgb(186, 14, 9);
+}

@@ -1,0 +1,49 @@
+#formalImg {
+  position: relative;
+  z-index: 2;
+}
+#formalImg img {
+  border: 3px solid rgb(30 41 59);
+}
+#formalImg::before {
+  z-index: -2;
+  content: "";
+  position: absolute;
+  top: -1%;
+  left: -1%;
+  background: #3eefe0;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  transition: 1s;
+}
+
+#formalImg::after {
+  z-index: -2;
+  content: "";
+  position: absolute;
+  bottom: -1%;
+  right: -1.5%;
+  background: #3eefe0;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  transition: 1s;
+}
+#about-Contain {
+  border-radius: 0 0 100px 0px;
+}
+
+#about-intro:before {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #3eefe0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 1s;
+}
+#about-intro:hover::before {
+  width: 100px;
+}

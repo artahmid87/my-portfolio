@@ -1,0 +1,161 @@
+#portfolio-contain{
+    border-radius: 100px 0px 0px 0px;
+}
+
+#portfolio-img img{
+  width: 50px;
+  height:50px;
+}
+#portfolio-img{
+    margin-right:30px;
+    width: 60px;
+    height:60px;
+}
+#portfolio-img #tailwind{
+    width: 100px;
+    height:80px;
+    margin-top:-10px;
+    filter: drop-shadow(10px 10px 10px #29E0F1);
+    transform: rotate(180deg);
+    transition: .5s;
+}
+
+#portfolio-img #jquarry{
+    width: 50px;
+    height:50px;
+    margin-left:15px;
+    filter: drop-shadow(10px 10px 10px #EAEAEA);
+    transition: .5s;
+}
+
+#portfolio-img #css{
+    filter: drop-shadow(10px 10px 10px #5A5DFE);
+    transition: .5s;
+}
+#portfolio-img #html{
+    filter: drop-shadow(10px 10px 10px #F78768);
+    transition: .5s;
+}
+#portfolio-img #javascript{
+    filter: drop-shadow(10px 10px 10px #FEEF3C);
+    transition: .5s;
+}
+#portfolio-img #bootstrap{
+    filter: drop-shadow(10px 10px 10px #B878EE);
+    width: 130px;
+    height:80px;
+    margin-top:-10px;
+    transition: .5s;
+
+}
+#portfolio-img #node{
+    filter: drop-shadow(10px 10px 10px #53A343);
+    width: 60px;
+    height:50px;
+    margin-left:10px;
+    transition: .5s;
+}
+#portfolio-img #typescript{
+    filter: drop-shadow(10px 10px 10px #2E91D0);
+    width: 50px;
+    height:50px;
+    margin-left:5px;
+    transition: .5s;
+
+}
+
+#portfolio-img #react{
+    filter: drop-shadow(10px 10px 10px #626FA4);
+    width: 130px;
+    height:80px;
+    margin-top:-10px;
+    transition: .5s;
+
+}
+#portfolio-img #framerMotion{
+    filter: drop-shadow(10px 10px 10px #EEEEEE);
+    transition: .5s;
+}
+#portfolio-img #github{
+    filter: drop-shadow(10px 10px 10px #622AC4);
+    width: 50px;
+    height:50px;
+    transition: .5s;
+    margin-left:18px;
+
+}
+#portfolio-img #command{
+    filter: drop-shadow(10px 10px 10px #696B74);
+    width: 50px;
+    height:50px;
+    transition: .5s;
+    margin-left:15px;
+
+}
+
+
+#portfolio-img #css:hover{
+    filter: drop-shadow(15px 15px 15px #5A5DFE);
+    transform:scale(1.1);
+}
+#portfolio-img #html:hover{
+    filter: drop-shadow(15px 15px 15px #F78768);
+    transform:scale(1.1);
+}
+#portfolio-img #javascript:hover{
+    filter: drop-shadow(15px 15px 15px #FEEF3C);
+    transform:scale(1.1);
+}
+#portfolio-img #bootstrap:hover{
+    filter: drop-shadow(15px 15px 15px #B878EE);
+    transform:scale(1.1);
+}
+#portfolio-img #github:hover{
+    filter: drop-shadow(15px 15px 15px #622AC4);
+    transform:scale(1.1);
+}
+#portfolio-img #command:hover{
+    filter: drop-shadow(15px 15px 15px #696B74);
+    transform:scale(1.1);
+}
+#portfolio-img #framerMotion:hover{
+    filter: drop-shadow(15px 15px 15px #EEEEEE);
+    transform:scale(1.1);
+}
+#portfolio-img #node:hover{
+    filter: drop-shadow(15px 15px 15px #53A343);
+    transform:scale(1.1);
+}
+#portfolio-img #typescript:hover{
+    filter: drop-shadow(15px 15px 15px #2E91D0);
+    transform:scale(1.1);
+}
+
+#portfolio-img #react:hover{
+    filter: drop-shadow(15px 15px 15px #626FA4);
+    transform:scale(1.1)
+}
+#portfolio-img #jquarry:hover{
+    filter: drop-shadow(15px 15px 15px #EAEAEA);
+    transform:scale(1.1)
+}
+#portfolio-img #tailwind:hover{
+    filter: drop-shadow(15px 15px 15px #29E0F1);
+    width: 110px;
+    height:90px;
+    transform: rotate(180deg);
+}
+
+#skill-h1{
+    position:relative;
+    
+}
+#skill-h1::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:70px;
+    height: 2px;
+    background-color: #fff; 
+}
