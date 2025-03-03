@@ -648,10 +648,6 @@ video {
   margin-left: 3px;
 }
 
-.mt-\[0\]{
-  margin-top: 0;
-}
-
 .mt-\[5px\]{
   margin-top: 5px;
 }
@@ -676,16 +672,16 @@ video {
   height: 100dvh;
 }
 
-.h-\[200px\]{
-  height: 200px;
+.h-\[50px\]{
+  height: 50px;
 }
 
 .w-\[100\%\]{
   width: 100%;
 }
 
-.w-\[250px\]{
-  width: 250px;
+.w-\[50px\]{
+  width: 50px;
 }
 
 .flex-col{
@@ -704,16 +700,16 @@ video {
   justify-content: space-between;
 }
 
-.gap-4{
-  gap: 1rem;
-}
-
 .self-center{
   align-self: center;
 }
 
 .overflow-hidden{
   overflow: hidden;
+}
+
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .rounded-xl{
@@ -739,6 +735,16 @@ video {
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
+.bg-green-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-green-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
 .bg-slate-300{
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
@@ -757,11 +763,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-green-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
 .p-4{
@@ -820,16 +821,16 @@ video {
   font-size: 28px;
 }
 
+.text-\[30px\]{
+  font-size: 30px;
+}
+
 .text-\[40px\]{
   font-size: 40px;
 }
 
 .text-\[50px\]{
   font-size: 50px;
-}
-
-.text-\[30px\]{
-  font-size: 30px;
 }
 
 .font-bold{
@@ -851,6 +852,11 @@ video {
 .text-\[\#ff3535\]{
   --tw-text-opacity: 1;
   color: rgb(255 53 53 / var(--tw-text-opacity));
+}
+
+.text-\[\#fff\]{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-\[rgb\(72\2c 72\2c 72\)\]{
@@ -888,11 +894,6 @@ video {
 }
 
 .text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#fff\]{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -964,10 +965,6 @@ video {
 
   .sm\:w-\[400px\]{
     width: 400px;
-  }
-
-  .sm\:flex-row{
-    flex-direction: row;
   }
 
   .sm\:flex-col{
